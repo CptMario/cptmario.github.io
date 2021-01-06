@@ -1,6 +1,504 @@
 <!DOCTYPE html>
-<html>
-<body>
-<h1>Bienvenidos a mi portfolio</h1>
-</body>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Mario De La Torre Ochoa</title>
+        <link rel="icon" type="image/png" href="images/instagram.png"/>
+
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+        <link href="/docs/5.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+
+        <link rel="stylesheet" href="styles/bootstrap.min.css">
+        <link rel="stylesheet" href="styles/estilos.css">
+    </head>
+
+    <body>
+
+        <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark" id="hola">
+            <div class="container-fluid">
+                <a href="#top" class="navbar-brand">Mario De La Torre Ochoa</a>
+
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarColor01">
+                    <ul class="navbar-nav mr-auto">
+
+                      <li class="nav-item">
+                        <a class="nav-link" href="#codigo">Código</a>
+                      </li>
+
+                      <li class="nav-item">
+                        <a class="nav-link" href="#conoc">Conocimiento</a>
+                      </li>
+
+                      <li class="nav-item">
+                        <a class="nav-link" href="#exp">Experiencia</a>
+                      </li>
+    
+                      <li class="nav-item">
+                        <a class="nav-link" href="#contacto">Contacto</a>
+                      </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <div class="container mt-4">
+            <div id="inicio" class="jumbotron">
+                <h1 class="display-4">Work in progress</h1>
+                <p class="lead">Futuro inicio de mi portfolio donde se verá una breve explicación de mi persona y mi vida estudiantil y profesional.</p>
+                <hr class="my-4">
+                <p>Primera y unica pestaña funcional de mi portfolio.</p>
+                <a class="btn btn-primary btn-lg" href="#codigo" role="button">Código</a>
+              </div>
+
+        </div>
+
+        <hr id="codigo">   
+
+        <div class="container mt-5">
+            
+            <h1>Código</h1>
+
+            <p>Listado de todas las estructuras con las que he trabajado a lo largo de este curso.</p>
+
+            <ul class="nav nav-tabs" id="myTab" role="tablist">
+                <li class="nav-item" role="presentation">
+                    <a class="nav-link active" id="estr-tab" data-toggle="tab" href="#estr" role="tab" aria-controls="estr" aria-selected="false">Estructuras</a>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <a class="nav-link" id="funcion-tab" data-toggle="tab" href="#funcion" role="tab" aria-controls="funcion" aria-selected="false">Funciones</a>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <a class="nav-link" id="num-tab" data-toggle="tab" href="#num" role="tab" aria-controls="num" aria-selected="false">Numerales</a>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <a class="nav-link" id="text-tab" data-toggle="tab" href="#text" role="tab" aria-controls="text" aria-selected="false">Cadenas de texto</a>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <a class="nav-link" id="array-tab" data-toggle="tab" href="#array" role="tab" aria-controls="array" aria-selected="false">Arrays</a>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <a class="nav-link" id="date-tab" data-toggle="tab" href="#date" role="tab" aria-controls="date" aria-selected="false">Date</a>
+                </li>
+
+            </ul>
+
+            <div class="tab-content" id="myTabContent">
+
+                <!-- ESTRUCTURAS -->
+                <div class="tab-pane fade show active" id="estr" role="tabpanel" aria-labelledby="estr-tab">
+                    <div class="accordion" id="accordionExample">
+                        
+                        <div class="card">
+                            <div class="card-header" id="headingOne">
+                            <h2 class="mb-0">
+                                <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                Estructura de Datos Simples
+                                </button>
+                            </h2>
+                            </div>
+                        
+                            <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+                                <iframe width="100%" height="300" src="//jsfiddle.net/cptmariio/xugkwb6h/2/embedded/js,html,result/dark/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>                            </div>
+                            </div>
+                    
+
+                        <div class="card">
+                            <div class="card-header" id="headingTwo">
+                            <h2 class="mb-0">
+                                <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                Estructura de Datos Complejos
+                                </button>
+                            </h2>
+                            </div>
+                            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                                <iframe width="100%" height="300" src="//jsfiddle.net/Rufuus06/cLm235ru/2/embedded/js,html,css,result/dark/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>                   
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <!-- FUNCIONES -->
+                <div class="tab-pane fade" id="funcion" role="tabpanel" aria-labelledby="funcion-tab">
+                    <div class="accordion" id="accordionExample2">
+                        
+                        <div class="card">
+                            <div class="card-header" id="headingfuncionOne">
+                            <h2 class="mb-0">
+                                <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#funcionOne" aria-expanded="true" aria-controls="funcionOne">
+                                Funciones Anónimas
+                                </button>
+                            </h2>
+                            </div>
+                    
+                            <div id="funcionOne" class="collapse" aria-labelledby="headingfuncionOne" data-parent="#accordionExample2">
+                                <iframe width="100%" height="300" src="//jsfiddle.net/Rufuus06/hzcyn8Ls/1/embedded/js,html,css,result/dark/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <div class="card-header" id="headingfuncionTwo">
+                            <h2 class="mb-0">
+                                <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#funcionTwo" aria-expanded="false" aria-controls="funcionTwo">
+                                Funciones Callback
+                                </button>
+                            </h2>
+                            </div>
+
+                            <div id="funcionTwo" class="collapse" aria-labelledby="headingfuncionTwo" data-parent="#accordionExample2">
+                                <iframe width="100%" height="300" src="//jsfiddle.net/Rufuus06/gd4L635f/1/embedded/js,html,css,result/dark/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>    
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                    
+                <!-- NUMERALES -->
+                <div class="tab-pane fade" id="num" role="tabpanel" aria-labelledby="num-tab">
+                    <div class="accordion" id="accordionExample3">
+
+                        <div class="card">
+                            <div class="card-header" id="headingFive">
+                            <h2 class="mb-0">
+                                <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseFive" aria-expanded="true" aria-controls="collapseFive">
+                                parseInt()
+                                </button>
+                            </h2>
+                            </div>
+
+                            <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordionExample3">
+                                <iframe width="100%" height="300" src="//jsfiddle.net/Rufuus06/3j8oc5uh/3/embedded/js,html,result/dark/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <div class="card-header" id="headingSix">
+                            <h2 class="mb-0">
+                                <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseSix" aria-expanded="true" aria-controls="collapseSix">
+                                parseFloat()
+                                </button>
+                            </h2>
+                            </div>
+
+                            <div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#accordionExample3">
+                                <iframe width="100%" height="300" src="//jsfiddle.net/Rufuus06/0qe6uk3d/1/embedded/js,html,result/dark/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>    
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <div class="card-header" id="headingSeven">
+                            <h2 class="mb-0">
+                                <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseSeven" aria-expanded="true" aria-controls="collapseSeven">
+                                Number()
+                                </button>
+                            </h2>
+                            </div>
+
+                            <div id="collapseSeven" class="collapse" aria-labelledby="headingSeven" data-parent="#accordionExample3">
+                                <iframe width="100%" height="300" src="//jsfiddle.net/Rufuus06/95u6fpkj/5/embedded/js,html,result/dark/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe> 
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <div class="card-header" id="headingEight">
+                            <h2 class="mb-0">
+                                <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseEight" aria-expanded="true" aria-controls="collapseEight">
+                                valueOf()
+                                </button>
+                            </h2>
+                            </div>
+
+                            <div id="collapseEight" class="collapse" aria-labelledby="headingEight" data-parent="#accordionExample3">
+                                <iframe width="100%" height="300" src="//jsfiddle.net/Rufuus06/7f8sxyLj/3/embedded/js,html,result/dark/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>   
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <div class="card-header" id="headingNine">
+                            <h2 class="mb-0">
+                                <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseNine" aria-expanded="true" aria-controls="collapseNine">
+                                toPrecision()
+                                </button>
+                            </h2>
+                            </div>
+
+                            <div id="collapseNine" class="collapse" aria-labelledby="headingNine" data-parent="#accordionExample3">
+                                <iframe width="100%" height="300" src="//jsfiddle.net/Rufuus06/ejf8zt14/11/embedded/js,html,result/dark/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- TEXTO -->
+                <div class="tab-pane fade" id="text" role="tabpanel" aria-labelledby="text-tab">
+                    <div class="accordion" id="accordionExample4">
+                        
+                        <div class="card">
+                            <div class="card-header" id="headingtexto1">
+                            <h2 class="mb-0">
+                                <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#texto1" aria-expanded="true" aria-controls="texto1">
+                                replace()
+                                </button>
+                            </h2>
+                            </div>
+                    
+                            <div id="texto1" class="collapse" aria-labelledby="headingtexto1" data-parent="#accordionExample4">
+                                <iframe width="100%" height="300" src="//jsfiddle.net/Rufuus06/esxy2ac9/34/embedded/js,html,result/dark/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <div class="card-header" id="headingtexto2">
+                            <h2 class="mb-0">
+                                <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#texto2" aria-expanded="true" aria-controls="texto2">
+                                toUpperCase() / toLowerCase()
+                                </button>
+                            </h2>
+                            </div>
+                    
+                            <div id="texto2" class="collapse" aria-labelledby="headingtexto2" data-parent="#accordionExample4">
+                                <iframe width="100%" height="300" src="//jsfiddle.net/Rufuus06/esxy2ac9/44/embedded/js,html,result/dark/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <div class="card-header" id="headingtexto3">
+                            <h2 class="mb-0">
+                                <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#texto3" aria-expanded="true" aria-controls="texto3">
+                                concat()
+                                </button>
+                            </h2>
+                            </div>
+                    
+                            <div id="texto3" class="collapse" aria-labelledby="headingtexto3" data-parent="#accordionExample4">
+                                <iframe width="100%" height="300" src="//jsfiddle.net/Rufuus06/esxy2ac9/48/embedded/js,html,result/dark/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <div class="card-header" id="headingtexto4">
+                            <h2 class="mb-0">
+                                <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#texto4" aria-expanded="true" aria-controls="texto4">
+                                trim()
+                                </button>
+                            </h2>
+                            </div>
+                    
+                            <div id="texto4" class="collapse" aria-labelledby="headingtexto4" data-parent="#accordionExample4">
+                                <iframe width="100%" height="300" src="//jsfiddle.net/Rufuus06/s8en4qfa/5/embedded/js,html,result/dark/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <div class="card-header" id="headingtexto5">
+                            <h2 class="mb-0">
+                                <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#texto5" aria-expanded="true" aria-controls="texto5">
+                                charAt()
+                                </button>
+                            </h2>
+                            </div>
+                    
+                            <div id="texto5" class="collapse" aria-labelledby="headingtexto5" data-parent="#accordionExample4">
+                                <iframe width="100%" height="300" src="//jsfiddle.net/Rufuus06/s8en4qfa/13/embedded/js,html,result/dark/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- ARRAYS -->
+                <div class="tab-pane fade" id="array" role="tabpanel" aria-labelledby="array-tab">
+                    <div class="accordion" id="accordionExample5">
+                        
+                        <div class="card">
+                            <div class="card-header" id="headingA1">
+                            <h2 class="mb-0">
+                                <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#Array1" aria-expanded="true" aria-controls="Array1">
+                                pop()
+                                </button>
+                            </h2>
+                            </div>
+                    
+                            <div id="Array1" class="collapse" aria-labelledby="headingA1" data-parent="#accordionExample5">
+                                <iframe width="100%" height="300" src="//jsfiddle.net/Rufuus06/s8en4qfa/55/embedded/js,html,result/dark/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <div class="card-header" id="headingA2">
+                            <h2 class="mb-0">
+                                <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#Array2" aria-expanded="false" aria-controls="Array2">
+                                push()
+                                </button>
+                            </h2>
+                            </div>
+
+                            <div id="Array2" class="collapse" aria-labelledby="headingA2" data-parent="#accordionExample5">
+                                <iframe width="100%" height="300" src="//jsfiddle.net/Rufuus06/s8en4qfa/53/embedded/js,html,result/dark/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <div class="card-header" id="headingA3">
+                            <h2 class="mb-0">
+                                <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#Array3" aria-expanded="false" aria-controls="Array3">
+                                shift()
+                                </button>
+                            </h2>
+                            </div>
+
+                            <div id="Array3" class="collapse" aria-labelledby="headingA3" data-parent="#accordionExample5">
+                                <iframe width="100%" height="300" src="//jsfiddle.net/Rufuus06/s8en4qfa/50/embedded/js,html,result/dark/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <div class="card-header" id="headingA4">
+                            <h2 class="mb-0">
+                                <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#Array4" aria-expanded="false" aria-controls="Array4">
+                                unshift()
+                                </button>
+                            </h2>
+                            </div>
+
+                            <div id="Array4" class="collapse" aria-labelledby="headingA4" data-parent="#accordionExample5">
+                                <iframe width="100%" height="300" src="//jsfiddle.net/Rufuus06/s8en4qfa/61/embedded/js,html,result/dark/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <div class="card-header" id="headingA5">
+                            <h2 class="mb-0">
+                                <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#Array5" aria-expanded="false" aria-controls="Array5">
+                                splice()
+                                </button>
+                            </h2>
+                            </div>
+
+                            <div id="Array5" class="collapse" aria-labelledby="headingA5" data-parent="#accordionExample5">
+                                <iframe width="100%" height="300" src="//jsfiddle.net/Rufuus06/s8en4qfa/69/embedded/js,html,result/dark/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            
+                <!-- DATES -->
+                <div class="tab-pane fade" id="date" role="tabpanel" aria-labelledby="date-tab">
+                    <div class="accordion" id="accordionExample6">
+                        
+                        <div class="card">
+                            <div class="card-header" id="headingDate1">
+                            <h2 class="mb-0">
+                                <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#date1" aria-expanded="true" aria-controls="date1">
+                                get
+                                </button>
+                            </h2>
+                            </div>
+                    
+                            <div id="date1" class="collapse" aria-labelledby="headingDate1" data-parent="#accordionExample6">
+                                <iframe width="100%" height="300" src="//jsfiddle.net/Rufuus06/s8en4qfa/81/embedded/js,html,result/dark/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <div class="card-header" id="headingDate2">
+                            <h2 class="mb-0">
+                                <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#date2" aria-expanded="false" aria-controls="date2">
+                                set
+                                </button>
+                            </h2>
+                            </div>
+
+                            <div id="date2" class="collapse" aria-labelledby="headingDate2" data-parent="#accordionExample6">
+                                <iframe width="100%" height="300" src="//jsfiddle.net/Rufuus06/s8en4qfa/87/embedded/js,html,result/dark/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        
+
+        <hr id="conoc">
+        
+        <div class="container mt-5">
+            <div class="jumbotron">
+                <h1 class="display-4">Work in progress</h1>
+                <p class="lead">Futuro segmento de mi portfolio donde se verá mi conocimiento en cuanto a codigo</p>
+                <hr class="my-4">
+                <p>Primera y unica pestaña funcional de mi portfolio.</p>
+                <a class="btn btn-primary btn-lg" href="#codigo" role="button">Código</a>
+              </div>
+
+        </div>
+
+        <hr id="exp" >
+
+        <div class="container mt-5">
+            <div class="jumbotron">
+                <h1 class="display-4">Work in progress</h1>
+                <p class="lead">Futuro segmento de mi portfolio donde se verá mi experiencia trabajando con codigo</p>
+                <hr class="my-4">
+                <p>Primera y unica pestaña funcional de mi portfolio.</p>
+                <a class="btn btn-primary btn-lg" href="#codigo" role="button">Código</a>
+              </div>
+
+        </div>
+
+        <hr>
+        
+        <div class="footer-fixed">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <ul id="contacto" class="list-unstyled">
+                            <li class="float-lg-right">
+                                <a href="#top">Volver arriba</a>
+                            </li>
+                            
+                            <li>
+                                <a href="https://www.instagram.com/rufuus06/">
+                                    <img class="img-footer" src="images/instagram.png" alt="Instagram: Rufuus06">  
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="https://twitter.com/rufuus06">
+                                    <img class="img-footer" src="images/twitter.png" alt="Twitter: Rufuus06">
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="https://www.linkedin.com/in/rodolfo-gallardo-ibarra-98248519b/">
+                                    <img class="img-footer" src="images/linkedin.png" alt="Linkedin: Rodolfo Gallardo">
+                                </a>
+                            </li>
+
+                        </ul>
+
+                        <br><br>
+                        <p id="#p-footer">Código desarrollado con bootstrap</p>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </body>
+    <script src="js/js.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
 </html>
