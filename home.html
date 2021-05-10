@@ -11,12 +11,14 @@
         <link href="/docs/5.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
         <link rel="stylesheet" href="styles/bootstrap.min.css">
         <link rel="stylesheet" href="styles/estilos.css">
+        <script src="jquery-3.5.1.min.js"></script>
     </head>
 
     <body id="body" onload="fadeguapo()">
 
         <!-- FADE -->
         <div id='fadeamos' style="height: 100%; width: 100%; background-color: #343A40; position: absolute; z-index: 2;"></div>
+
 
             <!-- NAV BAR -->
             <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark" id="hola">
@@ -32,7 +34,7 @@
                         <ul class="navbar-nav mr-auto">
 
                         <li class="nav-item">
-                                <a class="nav-link" href="home.html" >Home</a>
+                                <a class="nav-link" href="#home" >Home</a>
                         </li>
 
                         <li class="nav-item">
@@ -45,6 +47,7 @@
                         
                         <li class="nav-item">
                             <a class="nav-link" href="#know">Knowledge</a>
+                            
                         </li>
         
                         <li class="nav-item">
@@ -57,14 +60,15 @@
                 
                 <!-- CONTENIDO PAGINA -->
                 <div class="pimg1">
+                    <span id="home"></span>
                     <div class="ptext">
                       <span class="border">
                         <img src="images/logo.svg" alt="logoMario" width="400" height="50">
                       </span>
                     </div>
                   </div>
-                  
-                  
+
+                  <span class="anchor" id="aboutme"></span>
                   <section class="section section-light">
                     <h2>About Me</h2>
                     <p>
@@ -80,6 +84,7 @@
                     </div>
                   </div>
                 
+                  <span class="anchor" id="exp"></span>
                   <section class="section section-dark">
                     <p>
                       Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt, laudantium, quibusdam? Nobis, delectus, commodi, fugit amet tempora facere dolores nisi facilis consequatur, odio hic minima nostrum. Perferendis eos earum praesentium, blanditiis sapiente labore aliquam ipsa architecto vitae. Minima soluta temporibus voluptates inventore commodi cumque esse suscipit optio aliquam et, dolorem a cupiditate nihil fuga laboriosam fugiat placeat dignissimos! Unde eveniet placeat quisquam blanditiis voluptatem doloremque fugiat dolor repellendus ratione in.
@@ -94,6 +99,7 @@
                     </div>
                   </div>
                 
+                  <span class="anchor" id="know"></span>
                   <section class="section section-dark">
                     <p>
                       Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt, laudantium, quibusdam? Nobis, delectus, commodi, fugit amet tempora facere dolores nisi facilis consequatur, odio hic minima nostrum. Perferendis eos earum praesentium, blanditiis sapiente labore aliquam ipsa architecto vitae. Minima soluta temporibus voluptates inventore commodi cumque esse suscipit optio aliquam et, dolorem a cupiditate nihil fuga laboriosam fugiat placeat dignissimos! Unde eveniet placeat quisquam blanditiis voluptatem doloremque fugiat dolor repellendus ratione in.
@@ -109,6 +115,7 @@
                     </div>
                   </div>
                 
+                  <span class="anchor" id="contactme"></span>
                   <section class="section section-dark">
                     <p>
                       Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt, laudantium, quibusdam? Nobis, delectus, commodi, fugit amet tempora facere dolores nisi facilis consequatur, odio hic minima nostrum. Perferendis eos earum praesentium, blanditiis sapiente labore aliquam ipsa architecto vitae. Minima soluta temporibus voluptates inventore commodi cumque esse suscipit optio aliquam et, dolorem a cupiditate nihil fuga laboriosam fugiat placeat dignissimos! Unde eveniet placeat quisquam blanditiis voluptatem doloremque fugiat dolor repellendus ratione in.
@@ -150,12 +157,14 @@
 
                                     </ul>
                                     <p id="#p-footer" style="text-align: right;">Developed with bootstrap</p>
-                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
-        
+                <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+                <script src="JS/scripts.js"></script>
+                <script src="/docs/5.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+
         <script>
 
             function fadeguapo(){
@@ -176,7 +185,6 @@
                 }, 50);
             }
         </script>
+
     </body>
-    <script src="JS/js.js"></script>
-    <script src="/docs/5.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
 </html>

@@ -1,32 +1,37 @@
-.img-footer
-{
+html {
+    scroll-behavior: smooth;
+  }
+
+.img-footer{
     width: 40px;
     height: 40px;
     float:left;
     margin-right: 20px;
 }
 
-.footer-fixed
-{
+.footer-fixed{
     width: 100%;
     bottom: 0;
-    /* position: absolute; */
     margin: 3em 0;
 }
 
-#p-footer
-{
+#p-footer{
     clear: left;
 }
 
-.contenido
-{
+.contenido{
     padding: 60px 0px 0;
 }
 
-.footerpad
-{
+.footerpad{
     padding: 10px;
+}
+
+.anchor{
+    display: block;
+    height: 320px;
+    margin-top: -320px;
+    visibility: hidden;
 }
 
 body, html{
@@ -41,15 +46,10 @@ body, html{
   
   .pimg1, .pimg2, .pimg3, .pimg4{
     position:relative;
-    opacity:0.70;
+    opacity:0.8;
     background-position:center;
     background-size:cover;
     background-repeat:no-repeat;
-  
-    /*
-      fixed = parallax
-      scroll = normal
-    */
     background-attachment:fixed;
   }
   
@@ -93,10 +93,7 @@ body, html{
     top:50%;
     width:100%;
     text-align:center;
-    color:#000;
     font-size:27px;
-    letter-spacing:8px;
-    text-transform:uppercase;
   }
   
   .ptext .border{
