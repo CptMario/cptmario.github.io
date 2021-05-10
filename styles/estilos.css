@@ -415,19 +415,19 @@ html {
   .section{
     text-align:center;
     padding:50px 80px;
-    font-size: 14px;
+    font-size: 16px;
   }
   
   .section-light{
     background-color:#f4f4f4;
     color:#666;
-    font-size: 14px;
+    font-size: 16px;
   }
   
   .section-dark{
     background-color:#282e34;
     color:#ddd;
-    font-size: 14px;
+    font-size: 16px;
   }
   
   .ptext{
