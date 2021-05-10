@@ -378,22 +378,22 @@ html {
   }
   
   .pimg1{
-    background-image:url('../img/image1.jpg');
+    background-image:url('../images/image1.jpg');
     min-height:100%;
   }
   
   .pimg2{
-    background-image:url('../img/image2.jpg');
+    background-image:url('../images/image2.jpg');
     min-height:400px;
   }
   
   .pimg3{
-    background-image:url('../img/image3.jpg');
+    background-image:url('../images/image3.jpg');
     min-height:400px;
   }
 
     .pimg4{
-    background-image:url('../img/image4.jpg');
+    background-image:url('../images/image4.jpg');
     min-height:400px;
   }
   
