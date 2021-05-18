@@ -352,8 +352,8 @@ html {
 
 .anchor{
     display: block;
-    height: 320px;
-    margin-top: -320px;
+    height: 300px;
+    margin-top: -300px;
     visibility: hidden;
 }
   
@@ -389,7 +389,6 @@ html {
   .section{
     text-align:center;
     padding:50px 80px;
-    font-size: 16px;
   }
   
   .section-light{
@@ -399,6 +398,7 @@ html {
   }
   
   .section-dark{
+    
     background-color:#282e34;
     color:#ddd;
     font-size: 16px;
