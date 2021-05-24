@@ -204,18 +204,25 @@
        <section class="section section-dark">
           <p>
             <form action="https://formsubmit.co/m.delatorreochoa@gmail.com" method="POST">
+
+              <input type="hidden" name="_next" value="https://cptmario.github.io/home.html">
+              <input type="hidden" name="_captcha" value="false">
+
               <div class="mb-3">
                 <label for="exampleFormControlInput1" class="form-label">Name</label>
                 <input type="text" name="name" class="form-control" id="contactName" placeholder="Your name" style="font-size: 16px;">
               </div>
+
               <div class="mb-3">
                 <label for="exampleFormControlInput1" class="form-label">Email address</label>
                 <input type="email" name="email" class="form-control" id="contactEmail" placeholder="name@example.com" style="font-size: 16px;" required>
               </div>
+
               <div class="mb-3">
                 <label for="exampleFormControlTextarea1" class="form-label">Subject</label>
                 <textarea class="form-control" type="text" name="text" id="contactTextArea" rows="3" style="font-size: 16px;"></textarea>
               </div>
+
               <button class="btn btn-primary" type="submit" style="font-size: 16px; background-color: #68d6ec; color: black;">Contact me</button>
             </form>
           </p>
