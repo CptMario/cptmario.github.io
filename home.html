@@ -74,27 +74,10 @@
           <br>
             <button class="btn" onclick="play()"><img src="images/play.png" width="20px" height="20px"></button>
             <button class="btn" onclick="pause()"><img src="images/pause.png" width="20px" height="20px"></button>
-            <p id="tiempo">hola</p>
         
         <script type="text/javascript">
           var video = document.getElementById('video');
-          var timer = document.getElementById('tiempo');
           var botones = document.getElementById('botones');
-
-          function setTimer()
-        {
-            timer.innerHTML = format(video.duration);
-        }
-
-        function format(s)
-        {
-            var m = Math.floor(s / 60);
-            m = (m >= 10) ? m : "0" + m;
-            s = Math.floor(s % 60);
-            s = (s >= 10) ? s : "0" + s;
-
-            return m + ":" + s;
-        }
 
         video.addEventListener('timeupdate', updateCountdown);
 
@@ -164,7 +147,6 @@
               botones.style.visibility = 'visible';
             }
             
-            timer.innerText = format( time );
         }
 
           window.play = function(){
@@ -393,7 +375,6 @@
             function fadeguapo(){
                 elemento = document.getElementById('fadeamos');
                 fade(elemento);
-                timer.innerHTML = format(video.duration);
             }
 
             function fade(element) {
