@@ -60,9 +60,26 @@
           </p>
           <h3>Want to know me more? Check the video down below</h3> 
         
-          <video width="600" height="400" controls>
+          <video id="video" width="600" height="400">
             <source src="imt.mp4" type="video/mp4">
           </video>
+          <br>
+            <button class="btn" onclick="play()"><img src="images/play.png" width="20px" height="20px"></button>
+            <button class="btn" onclick="pause()"><img src="images/pause.png" width="20px" height="20px"></button>
+        
+        <script type="text/javascript">
+
+          window.play = function(){
+              document.getElementById("video").play();
+          }
+
+          window.pause = function(){
+            document.getElementById("video").pause();
+
+          }
+
+        </script>
+
        </section>
       
        <div class="pimg2">
