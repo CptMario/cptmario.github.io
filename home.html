@@ -72,8 +72,8 @@
             <source src="imt.mp4" type="video/mp4" alt="video presentacion Mario">
           </video>
           <br>
-            <button class="btn" onclick="play()"><img src="images/play.png" alt="play button" width="20px" height="20px"></button>
-            <button class="btn" onclick="pause()"><img src="images/pause.png" alt="pause button" width="20px" height="20px"></button>
+            <button class="btn" aria-label="Play" onclick="play()"><img src="images/play.png" alt="play button" width="20px" height="20px"></button>
+            <button class="btn" aria-label="Pause" onclick="pause()"><img src="images/pause.png" alt="pause button" width="20px" height="20px"></button>
         
         <script type="text/javascript">
           var video = document.getElementById('video');
@@ -307,17 +307,17 @@
 
               <div class="mb-3">
                 <label for="exampleFormControlInput1" class="form-label">Name</label>
-                <input type="text" name="name" class="form-control" id="contactName" placeholder="Your name" style="font-size: 16px; ">
+                <input type="text" name="name" class="form-control" id="contactName" aria-label="Name" style="font-size: 16px; ">
               </div>
 
               <div class="mb-3">
                 <label for="exampleFormControlInput1" class="form-label">Email address</label>
-                <input type="email" name="email" class="form-control" id="contactEmail" placeholder="name@example.com" style="font-size: 16px;" required>
+                <input type="email" name="email" class="form-control" id="contactEmail" aria-label="Email" style="font-size: 16px;" required>
               </div>
 
               <div class="mb-3">
                 <label for="exampleFormControlTextarea1" class="form-label">Subject</label>
-                <textarea class="form-control" type="text" name="text" id="contactTextArea" rows="3" style="font-size: 16px;" placeholder="Subject"></textarea>
+                <textarea class="form-control" type="text" name="text" id="contactTextArea" rows="3" style="font-size: 16px;" aria-label="Subject"></textarea>
               </div>
 
               <button id="boton" class="btn btn-primary" type="submit" style="font-size: 16px; background-color: #68d6ec; color: black;">Contact me</button>
