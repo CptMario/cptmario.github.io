@@ -26,10 +26,10 @@
                 </div>
                 <div id="mainListDiv" class="main_list">
                     <ul class="navlinks">
-                        <li><a href="#aboutme">About</a></li>
-                        <li><a href="#exp">Experience</a></li>
-                        <li><a href="#know">Knowledge</a></li>
-                        <li><a href="#contactme">Contact</a></li>
+                        <li><a href="#aboutme" aria-label="About me">About</a></li>
+                        <li><a href="#exp" aria-label="My experience">Experience</a></li>
+                        <li><a href="#know" aria-label="My Knowledge">Knowledge</a></li>
+                        <li><a href="#contactme" aria-label="Contact me">Contact</a></li>
                     </ul>
                 </div>
                 <span class="navTrigger">
@@ -72,8 +72,8 @@
             <source src="imt.mp4" type="video/mp4" alt="video presentacion Mario">
           </video>
           <br>
-            <button class="btn" aria-label="Play" onclick="play()"><img src="images/play.png" alt="play button" width="20px" height="20px"></button>
-            <button class="btn" aria-label="Pause" onclick="pause()"><img src="images/pause.png" alt="pause button" width="20px" height="20px"></button>
+            <button class="btn" aria-label="Play video" onclick="play()"><img src="images/play.png" alt="play button" width="20px" height="20px"></button>
+            <button class="btn" aria-label="Pause video" onclick="pause()"><img src="images/pause.png" alt="pause button" width="20px" height="20px"></button>
         
         <script type="text/javascript">
           var video = document.getElementById('video');
@@ -164,7 +164,7 @@
       
        <div class="pimg2">
          <div class="ptext">
-           <span class="border">
+           <span class="border" aria-label="Experience">
              EXPERIENCE
            </span>
          </div>
