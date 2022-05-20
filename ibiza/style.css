@@ -11,6 +11,7 @@
 
 body {
     font-family: FP1;
+    color: #3B444B;
 }
 
 h2{
@@ -40,6 +41,12 @@ h2{
     font-size: 3rem;
 }
 
+.container-second{
+    color: #FFD600;
+}
+
+
 .image{
     height: 25vh;
+    padding-top: 2rem;
 }
