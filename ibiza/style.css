@@ -17,7 +17,18 @@ body {
 h2{
     font-size: 5rem;
     font-weight: bold;
-    padding: 3rem;
+    padding: 0.5rem;
+    align-items: center;
+    text-align: center;
+}
+
+h1{
+    font-size: 5rem;
+    font-weight: bold;
+    padding: 0.5rem;
+    align-items: center;
+    text-align: center;
+    color: #FFD600;
 }
 
 .coming-soon{
@@ -29,6 +40,7 @@ h2{
 }
 
 .countdown{
+    padding-top: 5rem;
     display: flex;
     justify-content: space-around;
     text-align: center;
