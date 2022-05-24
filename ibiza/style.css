@@ -60,6 +60,8 @@ h1{
 }
 
 .container-second{
+    height: 15vh;
+    width: 15vh;
     padding: 3vh;
     color: #FFD600;
     border-radius: 25px;
@@ -69,10 +71,13 @@ h1{
 .container-hour, 
 .container-minute, 
 .container-day{
+    height: 15vh;
+    width: 15vh;
     padding: 3vh;
     background-color: rgba(0, 0, 0, 0.4);
     border-radius: 25px;
-
+    text-align: center;
+    
 }
 
 
