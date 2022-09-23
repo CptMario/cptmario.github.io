@@ -1,0 +1,96 @@
+@font-face {
+    font-family: FP1;
+    src: url(Gotham-Bold.otf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: FP1;
+    color: #FFFFFF;
+    background-image: url("fondo.png");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h2{
+    font-size: 5rem;
+    font-weight: bold;
+    padding: 0.5rem;
+    align-items: center;
+    text-align: center;
+}
+
+h1{
+    font-size: 5rem;
+    font-weight: bold;
+    padding: 0.5rem;
+    align-items: center;
+    text-align: center;
+    color: #FFD600;
+}
+
+.coming-soon{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.countdown{
+    padding-top: 3rem;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.day,
+.hour,
+.minute,
+.second{
+    font-size: 5rem;
+}
+
+.container-second{
+    height: 15vh;
+    width: 15vh;
+    padding: 3vh;
+    color: #FFD600;
+    border-radius: 25px;
+    background-color: rgba(0, 0, 0, 0.4);
+    margin-left: 10px;
+}
+
+.container-hour, 
+.container-minute, 
+.container-day{
+    height: 15vh;
+    width: 15vh;
+    padding: 3vh;
+    background-color: rgba(0, 0, 0, 0.4);
+    border-radius: 25px;
+    text-align: center;
+    margin-left: 10px;
+}
+
+
+.image{
+    height: 100vh;
+    padding-top: 2rem;
+    display: flex;
+    align-items: center;
+}
+
+.test{
+    padding: 2rem;
+
+    border-radius: 25px;
+    text-align: center;
+}
