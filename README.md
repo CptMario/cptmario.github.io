@@ -1,6 +1,6 @@
 # cptmario.github.io
 # 💫 About Me:
-👋 Hello! I'm a Junior Web Developer, who currently is works at <br>Fitness Park Spain as a Digital Support.<br><br>🎯 My goal is to keep growing in the Web Development field and create <br>interactive, well designed and innovative web sites.<br><br>👌 One of my hobbies is the graphic design, that´s one of the reasons why<br>my favorite fields inside the web development is Frontend.🙌
+👋 Hello! I'm a Junior Web Developer, who currently works at Fitness Park Spain as a Digital Support.<br><br>🎯 My goal is to keep growing in the Web Development field and create interactive, well designed and innovative web sites.<br><br>👌 One of my hobbies is the graphic design, that´s one of the reasons why >my favorite fields inside the web development is Frontend.🙌
 
 
 ## 🌐 Socials:
