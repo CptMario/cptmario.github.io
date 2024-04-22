@@ -38,7 +38,7 @@ function changeNameWithFade() {
 }
 
 // Llamamos a la función para iniciar el cambio de nombre con efecto de fade
-setInterval(changeNameWithFade, 5000); // Cambiar cada 3 segundos (3000 milisegundos)
+setInterval(changeNameWithFade, 3000); // Cambiar cada 3 segundos (3000 milisegundos)
 
 // Función para crear una partícula y añadirla al contenedor
 
