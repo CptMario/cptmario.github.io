@@ -80,6 +80,13 @@ h1{
     transform: translateX(-50%); /* Corregimos la posición para centrarlo correctamente */
 }
 
+#fpark {
+    position: absolute;
+    top: 5rem; /* Lo colocamos en la parte inferior */
+    left: 50%; /* Lo centramos horizontalmente */
+    transform: translateX(-50%); /* Corregimos la posición para centrarlo correctamente */
+}
+
 .welcome{
     font-family: FP2;
     letter-spacing: 1.5rem;
