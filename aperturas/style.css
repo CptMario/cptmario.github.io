@@ -109,3 +109,24 @@ h1{
     border-radius: 25px;
     text-align: center;
 }
+
+#name {
+    opacity: 1; /* Asegura que el nombre esté visible inicialmente */
+    transition: opacity 1s ease-in-out; /* Transición de opacidad */
+}
+
+.fade {
+    animation: fadeEffect 3s infinite;
+}
+
+@keyframes fadeEffect {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}

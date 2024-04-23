@@ -1,3 +1,38 @@
+document.addEventListener("DOMContentLoaded", function() {
+    // Array de nombres a mostrar
+    var names = [
+        'San Sebastián de los Reyes - Plaza Norte 2', 'Barcelona - Berlín', 'Vecindario - Gran Canaria', 'Zaragoza - Goya', 'Velencia - Maritim' , 'Jerez de la Frontera - Luz Shopping'
+        // Agrega más nombres si es necesario
+    ];
+
+    var nameIndex = 0; // Índice para seguir el nombre actual
+
+    // Función para cambiar el nombre y aplicar el efecto de fundido
+    function changeNameWithFade() {
+        var nameSpan = document.getElementById("name");
+
+        // Desvanece gradualmente el texto actual
+        nameSpan.style.opacity = 0;
+
+        setTimeout(function() {
+            // Cambia el texto
+            nameSpan.textContent = names[nameIndex];
+
+            // Incrementa el índice o vuelve a 0 si llega al final del array
+            nameIndex = (nameIndex + 1) % names.length;
+
+            // Desvanece gradualmente el nuevo texto
+            nameSpan.style.opacity = 1;
+        }, 1000); // Tiempo de espera antes de cambiar el texto (en milisegundos)
+    }
+
+    // Llama a la función inicialmente
+    changeNameWithFade();
+
+    // Llama a la función cada 5 segundos para cambiar el nombre
+    setInterval(changeNameWithFade, 10000); // Cambia cada 5 segundos (en milisegundos)
+});
+
 const countdown =() =>{
     const countDate = new Date('May 15, 2024 18:00:00').getTime();
     const now = new Date().getTime();
@@ -44,3 +79,6 @@ const countdown =() =>{
 
 countdown();
 setInterval(countdown, 1000);
+
+
+
