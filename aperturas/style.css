@@ -115,6 +115,13 @@ h1{
     transition: opacity 1s ease-in-out; /* Transición de opacidad */
 }
 
+#totem {
+    position: absolute;
+    bottom: 5rem; /* Lo colocamos en la parte inferior */
+    left: 50%; /* Lo centramos horizontalmente */
+    transform: translateX(-50%); /* Corregimos la posición para centrarlo correctamente */
+}
+
 .fade {
     animation: fadeEffect 3s infinite;
 }
