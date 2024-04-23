@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", function() {
     // Array de nombres a mostrar
     var names = [
-        'San Sebastián de los Reyes - Plaza Norte 2', 'Barcelona - Berlín', 'Vecindario - Gran Canaria', 'Zaragoza - Goya', 'Velencia - Maritim' , 'Jerez de la Frontera - Luz Shopping'
+        'San Sebastián de los Reyes - Plaza Norte 2', 'Barcelona - Berlín', 'Vecindario - Gran Canaria', 'Zaragoza - Goya', 'Valencia - Maritim' , 'Jerez de la Frontera - Luz Shopping'
         // Agrega más nombres si es necesario
     ];
 
