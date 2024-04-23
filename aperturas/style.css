@@ -20,6 +20,21 @@ body {
     background-size: cover;
 }
 
+#proximo{
+    position: absolute;
+    bottom: 1rem;
+    right: 1rem;
+    text-align: right;
+    background-color: rgba(50, 50, 50, 0.8);
+    border-radius: 25px;
+    padding: 2rem;
+}
+
+#prox{
+    text-align: right;
+    font-size: 2rem; 
+}
+
 h2{
     font-size: 5rem;
     font-weight: bold;
