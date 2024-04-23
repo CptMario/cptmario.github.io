@@ -30,7 +30,7 @@ document.addEventListener("DOMContentLoaded", function() {
     changeNameWithFade();
 
     // Llama a la función cada 5 segundos para cambiar el nombre
-    setInterval(changeNameWithFade, 10000); // Cambia cada 5 segundos (en milisegundos)
+    setInterval(changeNameWithFade, 5000); // Cambia cada 5 segundos (en milisegundos)
 });
 
 const countdown =() =>{
