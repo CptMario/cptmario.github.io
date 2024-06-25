@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", function() {
     // Array de nombres a mostrar
     var names = [
-        'Vecindario - Gran Canaria', 'Zaragoza - Goya', 'Valencia - Maritim' , 'Jerez de la Frontera - Luz Shopping'
+        'Vecindario - Gran Canaria', 'Zaragoza - Actur', 'Valencia - Maritim' , 'Jerez de la Frontera - Luz Shopping'
         // Agrega más nombres si es necesario
     ];
 
