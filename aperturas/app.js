@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", function() {
     // Array de nombres a mostrar
     var names = [
-        'Vecindario - Gran Canaria', 'Zaragoza - Actur', 'Valencia - Maritim' , 'Jerez de la Frontera - Luz Shopping', 'Malaga - Bahía'
+        'Vecindario - Gran Canaria', 'Zaragoza - Actur', 'Valencia - Maritim' , 'Malaga - Bahía'
         // Agrega más nombres si es necesario
     ];
 
@@ -34,7 +34,7 @@ document.addEventListener("DOMContentLoaded", function() {
 });
 
 const countdown =() =>{
-    const countDate = new Date('Aug 2, 2024 18:00:00').getTime();
+    const countDate = new Date('Aug 23, 2024 18:00:00').getTime();
     const now = new Date().getTime();
     const gap = countDate - now;
 
