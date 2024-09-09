@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", function() {
     // Array de nombres a mostrar
     var names = [
-        'Lorca - Parque Almenara', 'Zaragoza - Actur', 'Valencia - Maritim' , 'Malaga - Bahía', 'Cordoba - El Arcangel'
+        'Bilbao - Zubiarte', 'Valencia - Calixto' , 'Malaga - Bahía', 'Cordoba - El Arcangel', 'Barcelona - Rosello'
         // Agrega más nombres si es necesario
     ];
 
