@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", function() {
     // Array de nombres a mostrar
     var names = [
-        'Bilbao - Zubiarte', 'Valencia - Calixto' , 'Malaga - Bahía', 'Cordoba - El Arcangel', 'Barcelona - Rosello'
+        'Bilbao - Zubiarte', 'Valencia - Calixto' , 'Cordoba - El Arcangel', 'Barcelona - Rosello'
         // Agrega más nombres si es necesario
     ];
 
@@ -34,7 +34,7 @@ document.addEventListener("DOMContentLoaded", function() {
 });
 
 const countdown =() =>{
-    const countDate = new Date('Oct 4, 2024 18:00:00').getTime();
+    const countDate = new Date('Oct 18, 2024 18:00:00').getTime();
     const now = new Date().getTime();
     const gap = countDate - now;
 
