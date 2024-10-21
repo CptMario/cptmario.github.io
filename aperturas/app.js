@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", function() {
     // Array de nombres a mostrar
     var names = [
-        'Bilbao - Zubiarte', 'Valencia - Calixto' , 'Cordoba - El Arcangel', 'Barcelona - Rosello'
+        'Bilbao - Zubiarte' , 'Cordoba - El Arcangel', 'Barcelona - Rosello'
         // Agrega más nombres si es necesario
     ];
 
