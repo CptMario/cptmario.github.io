@@ -5,6 +5,7 @@ body, html {
 .bg {
     /* The image used */
     background-image: url("imagen.png");
+    background-color: #232424;
   
     /* Full height */
     height: 100%;
