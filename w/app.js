@@ -1,4 +1,4 @@
-const names = ['Lounis Bouhaddada' , 'Pere Riera' , 'Miguel Santana' , 'Pol Martín']; // Array con los nombres
+const names = ['Lounis Bouhaddada' , 'Pere Riera' , 'Miguel Santana' , 'Pol Martín', 'Amaia Moneo', 'Héctor González', 'Helena Pont de Roda', 'David Arribas', 'Andrea Alonso','Marina Cama']; // Array con los nombres 
 const nameElement = document.getElementById('name'); // Elemento h2 donde se mostrarán los nombres
 let currentIndex = 0; // Índice actual en el array
 const numParticles = 50; // Número de partículas
