@@ -1,7 +1,14 @@
 document.addEventListener("DOMContentLoaded", function() {
     // Array de nombres a mostrar
     var names = [
-        'Granada - Granaita', 'Madrid - Castellana', 'Alfafar - MN4', 'Madrid - Mendez Alvaro', 'Sevilla - Villalobos'
+        'Granada - Granaita', 
+        'Madrid - Castellana', 
+        'Madrid - Mendez Alvaro', 
+        "Sevilla - Villalobos",
+        "Salamanca - Capuchinos",
+        "Albacete - Albacenter",
+        "Chiclana - Puerta de Chiclana",
+        "Tarragona - Family Park"
         // Agrega más nombres si es necesario
     ];
 
