@@ -117,7 +117,7 @@ h1{
 
 #totem {
     position: absolute;
-    bottom: 10.5rem; /* Lo colocamos en la parte inferior */
+    bottom: 9.5rem; /* Lo colocamos en la parte inferior */
     left: 50%; /* Lo centramos horizontalmente */
     transform: translateX(-50%); /* Corregimos la posición para centrarlo correctamente */
 }
