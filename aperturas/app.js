@@ -2,7 +2,7 @@ document.addEventListener("DOMContentLoaded", function() {
     // Array de nombres a mostrar
     var names = [
         'Madrid - Castellana', 
-        "Sevilla - Villalobos",
+        "Barcelona - Diagonal Mar",
         "Salamanca - Capuchinos",
         "Albacete - Albacenter",
         "Chiclana - Puerta de Chiclana",
