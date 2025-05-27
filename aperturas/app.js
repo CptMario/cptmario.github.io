@@ -3,8 +3,6 @@ document.addEventListener("DOMContentLoaded", function() {
     var names = [
         'Madrid - Castellana', 
         "Barcelona - Diagonal Mar",
-        "Salamanca - Capuchinos",
-        "Albacete - Albacenter",
         "Chiclana - Puerta de Chiclana",
         "Tarragona - Family Park"
         // Agrega más nombres si es necesario
