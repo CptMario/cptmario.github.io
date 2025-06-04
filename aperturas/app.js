@@ -3,8 +3,9 @@ document.addEventListener("DOMContentLoaded", function() {
     var names = [
         'Madrid - Castellana', 
         "Barcelona - Diagonal Mar",
-        "Chiclana - Puerta de Chiclana",
-        "Tarragona - Family Park"
+        "San Sebastian - La Bretxa",
+        "Tarragona - Family Park",
+        "Canarias - Cruze de Arinaga"
         // Agrega más nombres si es necesario
     ];
 
@@ -66,7 +67,7 @@ document.addEventListener("DOMContentLoaded", function() {
 });
 
 const countdown =() =>{
-    const countDate = new Date('May 30, 2025 18:00:00').getTime();
+    const countDate = new Date('Jul 11, 2025 18:00:00').getTime();
     const now = new Date().getTime();
     const gap = countDate - now;
 
