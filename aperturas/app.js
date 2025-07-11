@@ -3,7 +3,6 @@ document.addEventListener("DOMContentLoaded", function() {
     var names = [
         'Madrid - Castellana', 
         "Barcelona - Diagonal Mar",
-        "San Sebastian - La Bretxa",
         "Tarragona - Family Park",
         "Canarias - Cruze de Arinaga"
         // Agrega más nombres si es necesario
