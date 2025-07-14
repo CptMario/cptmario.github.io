@@ -2,11 +2,11 @@ console.log("Script cargado correctamente");
 
 document.addEventListener("DOMContentLoaded", function() {
     // Array de nombres a mostrar
-    var names = [
-        'Madrid - Castellana', 
+    var names = [ 
         "Barcelona - Diagonal Mar",
         "Tarragona - Family Park",
-        "Canarias - Cruze de Arinaga"
+        "Canarias - Cruze de Arinaga",
+        "Castellón - Vicente Altava"
         // Agrega más nombres si es necesario
     ];
 
