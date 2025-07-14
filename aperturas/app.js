@@ -8,15 +8,8 @@ document.addEventListener("DOMContentLoaded", function() {
         // Agrega más nombres si es necesario
     ];
 
-    var openings = [
-        'Granada - Granaita', 
-        'Badajoz - El Faro', 
-        'Madrid - Mendez Alvaro', 
-        // Agrega más nombres si es necesario
-    ];
 
     var nameIndex = 0; // Índice para seguir el nombre actual
-    var openingsIndex = 0;
 
     // Función para cambiar el nombre y aplicar el efecto de fundido
     function changeNameWithFade() {
@@ -37,32 +30,11 @@ document.addEventListener("DOMContentLoaded", function() {
         }, 1000); // Tiempo de espera antes de cambiar el texto (en milisegundos)
     }
 
-        // Función para cambiar el nombre y aplicar el efecto de fundido
-        function changeOpeningWithFade() {
-            var openingsSpan = document.getElementById("openings");
-    
-            // Desvanece gradualmente el texto actual
-            openingsSpan.style.opacity = 0;
-    
-            setTimeout(function() {
-                // Cambia el texto
-                openingsSpan.textContent = openings[openingsIndex];
-    
-                // Incrementa el índice o vuelve a 0 si llega al final del array
-                openingsIndex = (openingsIndex + 1) % openings.length;
-    
-                // Desvanece gradualmente el nuevo texto
-                openingsSpan.style.opacity = 1;
-            }, 1000); // Tiempo de espera antes de cambiar el texto (en milisegundos)
-        }
-
     // Llama a la función inicialmente
     changeNameWithFade();
-    changeOpeningWithFade();
 
     // Llama a la función cada 5 segundos para cambiar el nombre
     setInterval(changeNameWithFade, 5000); // Cambia cada 5 segundos (en milisegundos)
-    setInterval(changeOpeningWithFade, 5000); // Cambia cada 5 segundos (en milisegundos)
 });
 
 const countdown =() =>{
