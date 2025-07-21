@@ -16,7 +16,7 @@ body, html {
     background-size: cover;
   }
 
-  @font-face {
+@font-face {
     font-family: FP1;
     src: url(Gotham-Bold.otf);
 }
