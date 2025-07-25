@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", function() {
     // Array de nombres a mostrar
     var names = [ 
         "Barcelona - Diagonal Mar",
-        "Tarragona - Family Park",
+        "Dos Hermanas - Entrenasas",
         "Canarias - Cruze de Arinaga",
         "Castellón - Vicente Altava"
         // Agrega más nombres si es necesario
