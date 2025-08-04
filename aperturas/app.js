@@ -5,7 +5,6 @@ document.addEventListener("DOMContentLoaded", function() {
     var names = [ 
         "Barcelona - Diagonal Mar",
         "Dos Hermanas - Entrenasas",
-        "Canarias - Cruze de Arinaga",
         "Castellón - Vicente Altava"
         // Agrega más nombres si es necesario
     ];
@@ -40,7 +39,7 @@ document.addEventListener("DOMContentLoaded", function() {
 });
 
 const countdown =() =>{
-    const countDate = new Date('Aug 1, 2025 18:00:00').getTime();
+    const countDate = new Date('Aug 14, 2025 18:00:00').getTime();
     const now = new Date().getTime();
     const gap = countDate - now;
 
