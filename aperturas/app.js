@@ -4,7 +4,6 @@ document.addEventListener("DOMContentLoaded", function() {
     // Array de nombres a mostrar
     var names = [ 
         "Fitness Park Benidorm - La Estación",
-        "Dos Hermanas - Entrenasas",
         "Fitness Park A Coruña - Alfonso Molina",
         "Fitness Park Madrid - Nuga Castellana"
         // Agrega más nombres si es necesario
@@ -40,7 +39,7 @@ document.addEventListener("DOMContentLoaded", function() {
 });
 
 const countdown =() =>{
-    const countDate = new Date('Sep 19, 2025 18:00:00').getTime();
+    const countDate = new Date('Sep 26, 2025 18:00:00').getTime();
     const now = new Date().getTime();
     const gap = countDate - now;
 
