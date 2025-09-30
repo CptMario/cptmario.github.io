@@ -4,7 +4,6 @@ document.addEventListener("DOMContentLoaded", function() {
     // Array de nombres a mostrar
     var names = [ 
         "Fitness Park Benidorm - La Estación",
-        "Fitness Park A Coruña - Alfonso Molina",
         "Fitness Park Madrid - Nuga Castellana"
         // Agrega más nombres si es necesario
     ];
